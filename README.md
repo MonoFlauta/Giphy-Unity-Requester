@@ -25,11 +25,12 @@ GiphyRequester.Search("Batman").Subscribe(x => {
 This will bring 5 different gifs related to Batman for example.
 You can also add additional parameters if needed:
 ```
+var type = Type.Gif;
 var limit = 5;
 var offset = 0;
 var language = "en";
 var rating = Rating.General;
-GiphyRequester.Search("Batman", limit, offset, language, rating).Subscribe(x => {
+GiphyRequester.Search("Batman", type, limit, offset, language, rating).Subscribe(x => {
     //Do something
 });
 ```
@@ -37,7 +38,8 @@ GiphyRequester.Search("Batman", limit, offset, language, rating).Subscribe(x => 
 ## Translate
 In order to use the Translate you can do the following:
 ```
-GiphyRequester.Translate("Batman").Subscribe(x => {
+var type = Type.Gif;
+GiphyRequester.Translate("Batman", type).Subscribe(x => {
     //Do something
 });
 ```
@@ -51,9 +53,10 @@ GiphyRequester.Trending().Subscribe(x => {
 ```
 You can also add additional parameters if needed:
 ```
+var type = Type.Gif;
 var limit = 5;
 var rating = Rating.General;
-GiphyRequester.Trending(limit, rating).Subscribe(x => {
+GiphyRequester.Trending(type, limit, rating).Subscribe(x => {
     //Do something
 });
 ```
@@ -67,9 +70,10 @@ GiphyRequester.Random().Subscribe(x => {
 ```
 You can also add additional parameters if needed:
 ```
+var type = Type.Gif;
 var tag = "";
 var rating = Rating.General;
-GiphyRequester.Random(tag, rating).Subscribe(x => {
+GiphyRequester.Random(type, tag, rating).Subscribe(x => {
     //Do something
 });
 ```
