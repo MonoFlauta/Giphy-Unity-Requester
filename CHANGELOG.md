@@ -1,3 +1,9 @@
+# [1.2.0]
+
+## New
+
+- Added UPM package
+
 # [1.1.0]
 
 ## New

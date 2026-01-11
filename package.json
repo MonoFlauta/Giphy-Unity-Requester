@@ -1,6 +1,6 @@
 {
   "name": "com.monoflauta.giphyunityrequester",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "displayName": "Giphy Unity Requester",
   "description": "The Giphy Unity Requester is a wrapper that tries to simplify the use of the Giphy API. Your calls will end up being very simple thanks to this wrapper and the use of UniRx.",
   "unity": "6000.3.2f1",
