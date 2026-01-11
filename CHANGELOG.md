@@ -1,3 +1,10 @@
+# [1.2.1]
+
+## Fixed
+
+- Fix package name
+- Fix min Unity version
+
 # [1.2.0]
 
 ## New

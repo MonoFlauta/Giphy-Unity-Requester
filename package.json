@@ -1,9 +1,9 @@
 {
-  "name": "com.monoflauta.giphyunityrequester",
-  "version": "1.2.0",
+  "name": "com.monoflauta.giphy-unity-requester",
+  "version": "1.2.1",
   "displayName": "Giphy Unity Requester",
   "description": "The Giphy Unity Requester is a wrapper that tries to simplify the use of the Giphy API. Your calls will end up being very simple thanks to this wrapper and the use of UniRx.",
-  "unity": "6000.3.2f1",
+  "unity": "2019.4",
   "author": {
     "name": "Facundo Balboa",
     "email": "monoflauta@gmail.com",
