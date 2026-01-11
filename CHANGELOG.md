@@ -1,3 +1,10 @@
+# [1.2.2]
+
+## Fixed
+
+- Folder structure
+- Readme documentation
+
 # [1.2.1]
 
 ## Fixed

@@ -9,11 +9,18 @@ Even you can use the API directly and make the calls by yourself, this tool shou
 # How to use it
 The following list contains all the things you need to fully use the requester.
 
-![](https://monoflauta.com/wp-content/uploads/2022/04/GiphyUnityRequesterSettings.png)
-
 ## Getting Started
-- In order to start, you will need to have the GiphyRequester folder and the Plugins (in case you don't have UniRx already) inside your project. Once you have those, you will be able to use the Giphy Unity Requester functionality
-- Go to the GiphyRequester/Resources/ folder and in the scriptable object set up your API key
+- Add the Tool through the Package Manager in Unity by going to:
+**Windows>Package Manager**
+- Press the **+** icon at the top left corner and select **Add package from git URL...**
+- There insert the url:
+`https://github.com/MonoFlauta/Giphy-Unity-Requester.git`
+- Download UniRx from: `https://github.com/neuecc/UniRx`
+- Create a Resources/ folder and create the scriptable object "GiphyRequestSettings" by doing right click in the Project and **Create>GiphyRequestSettings**
+  ![](https://monoflauta.com/wp-content/uploads/2022/04/GiphyUnityRequesterSettings.png)
+- Make sure the scriptable Object is called `GiphyRequestSettings`
+- Set up your API key
+
 That's all! Now you will be able to call the methods you need.
 ## Search
 In order to use the Search you can do the following:
