@@ -1,3 +1,9 @@
+# [1.2.3]
+
+## Fixed
+
+- Removed resources folder
+
 # [1.2.2]
 
 ## Fixed
